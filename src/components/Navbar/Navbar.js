@@ -31,7 +31,7 @@ const Navbar = () => {
         },
     ]
     return (
-        <div className='flex justify-between items-center w-full h-20 text-gray-700 fixed bg-white-400 px-4 shadow-md'>
+        <div className='flex justify-between items-center w-full h-20 text-gray-700 fixed bg-white px-4 shadow-md'>
 
             <div>
                 <h1 className='text-5xl font-signature ml-5'>sm-ayman</h1>
