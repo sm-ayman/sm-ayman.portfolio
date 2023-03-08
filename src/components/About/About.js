@@ -8,9 +8,10 @@ import { HiOutlineDownload } from 'react-icons/hi';
 
 
 const About = () => {
+
     return (
-        <div name='about' className='w-full h-screen'>
-            <div className='my-10'>
+        <div name='about' className='w-full my-48'>
+            <div className=''>
                 <h3 className='text-2xl text-center pt-5 font-bold'>About me</h3>
                 <span className='text-center text-[#02A646] font-semibold'><p>Introduction</p></span>
             </div>
