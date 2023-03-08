@@ -65,14 +65,13 @@ const Portfolio = () => {
             title: 'Weather App',
             href: ''
         },
-
     ]
 
     return (
-        <div name='portfolio' className='md:h-auto bg-gradient-to-b from-indigo-500 via-white to-gray-200'>
+        <div name='portfolio' className='bg-white h-full'>
             <div className='mb-10'>
                 <h3 className='text-2xl text-center pt-5 font-bold'>Portfolio</h3>
-                <span className='text-center text-white font-semibold'><p>My Recent Works</p></span>
+                <span className='text-center text-[#02A646] font-semibold'><p>My Recent Works</p></span>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 mx-20'>

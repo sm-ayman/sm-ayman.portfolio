@@ -1,6 +1,7 @@
 import React from 'react'
 // import heroImage from '../../assets/heroImage.jpg';
 import { IoMdArrowDropright } from "react-icons/io";
+import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
@@ -17,12 +18,12 @@ const Home = () => {
           <p className='text-gray-900 py-4 max-w-md'>I'm a Frontend Developer, currently living in Chittagong Bangladesh.
             Every time I write a line of code, I try to make the web look beautiful.</p>
           <div>
-            <button className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-tr from-cyan-500 to-[#5805ff] cursor-pointer'>
+            <Link to='contact' smooth duration={500} className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-tr from-cyan-500 to-[#5805ff] cursor-pointer'>
               Contact Me
               <span className='group-hover:rotate-90 duration-300'>
                 <IoMdArrowDropright size={25} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
