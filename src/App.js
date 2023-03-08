@@ -12,7 +12,7 @@ function App() {
       <Home></Home>
       <About></About>
       <SocialLinks></SocialLinks>
-      {/* <Skills></Skills> */}
+      <Skills></Skills>
       <Portfolio></Portfolio>
     </div>
   );

@@ -69,7 +69,7 @@ const Portfolio = () => {
     ]
 
     return (
-        <div name='portfolio' className='py-10 md:h-auto bg-gradient-to-b from-indigo-500 via-white to-gray-200'>
+        <div name='portfolio' className='md:h-auto bg-gradient-to-b from-indigo-500 via-white to-gray-200'>
             <div className='mb-10'>
                 <h3 className='text-2xl text-center pt-5 font-bold'>Portfolio</h3>
                 <span className='text-center text-white font-semibold'><p>My Recent Works</p></span>
